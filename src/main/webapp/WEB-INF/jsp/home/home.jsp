@@ -13,6 +13,8 @@
 	<link href="/assets/css/home.css" rel="stylesheet">
 	
 	<% //Manter charset utf-8 para funcionar a acentuação no auto completar %>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="/assets/js/raptorize.js" type="text/javascript"></script>
 	<script src="/assets/js/util.js" charset="utf-8"></script>
 	<script src="/assets/js/home.js" charset="utf-8"></script>	
 	<script src="/assets/js/autocompletar.js" charset="utf-8"></script>
@@ -21,7 +23,8 @@
 	<script src="/assets/js/cidades-estados-1.2-utf8.js" charset="utf-8"></script>
 	
 </head>
-
+<img id="elRaptor" src="assets/img/alejandro.jpeg" style="display: none; position: fixed; bottom: -300px; right: 0px;">
+<audio id="elRaptorShriek"  preload="auto"><source src="/assets/img/alejandro.mp3" /></audio>
 <body>
 	<jsp:include page="/WEB-INF/jsp/includes/cabecalho.jsp" />
 		

@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 
 function mascararCampos(){
-	mascaras.mascararCpf($('.cpf'));
+	//mascaras.mascararCpf($('.cpf'));
 	mascaras.mascararCnpj($('.cnpj'));
 }
 
